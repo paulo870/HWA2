@@ -2918,3 +2918,79 @@ select:focus-visible {
    
    The Games design will be upgraded separately.
    ========================================================= */
+
+/* ==========================
+   GAME VIEWER
+========================== */
+
+#game-viewer {
+
+    position: fixed;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    width: 92%;
+    height: 92%;
+
+    background: black;
+
+    display: none;
+
+    z-index: 6000;
+
+    border-radius: 14px;
+
+    overflow: hidden;
+
+    box-shadow:
+        0 0 25px rgba(0,0,0,0.7);
+}
+
+/* iframe */
+
+#game-frame {
+
+    width: 100%;
+    height: 100%;
+
+    border: none;
+
+    background: white;
+}
+
+/* close button */
+
+#hide-game-btn {
+
+    position: fixed;
+
+    top: 20px;
+    right: 20px;
+
+    z-index: 7000;
+
+    display: none;
+
+    padding: 10px 16px;
+
+    background: #1e607a;
+
+    color: white;
+
+    border: none;
+
+    border-radius: 8px;
+
+    cursor: pointer;
+
+    font-size: 15px;
+}
+
+#hide-game-btn:hover {
+
+    background: #48e082;
+}
+
