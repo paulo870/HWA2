@@ -336,17 +336,17 @@ audioBtn.addEventListener("click", function(e) {
     // Define audio tracks for all units (Student Book)
     const studentBookAudioTracks = {
         1: {10:["page10_Track_1.1","page10_Track_1.2","page10_Track_1.3"],11:["page11_Track_1.4","page11_Track_1.5"],12:["page12_Track_1.6","page12_Track_1.7"],13:["page13_Track_1.8","page13_Track_1.9","page13_Track_1.10"],14:["page14_Track_1.11","page14_Track_1.12"],15:["page15_Track_1.13"],16:["page16_Track_1.14"],17:["page17_Track_1.15","page17_Track_1.16"]},
-        2: {13:["page13_Track_2.1"],14:["page14_Track_2.2"],15:["page15_Track_2.3","page15_Track_2.4"]},
-        3: {20:["page20_Track_3.1","page20_Track_3.2"],21:["page21_Track_3.3"]},
-        4: {26:["page26_Track_4.1"],28:["page28_Track_4.2"],29:["page29_Track_4.3","page29_Track_4.4"],30:["page30_Track_4.5"]},
-        5: {33:["page33_Track_5.1"],34:["page34_Track_5.2","page34_Track_5.3"],35:["page35_Track_5.4"]},
-        6: {39:["page39_Track_6.1"],40:["page40_Track_6.2"],41:["page41_Track_6.3"]},
-        7: {47:["page47_Track_7.1"],48:["page48_Track_7.2","page48_Track_7.3"],49:["page49_Track_7.4"]},
-        8: {53:["page53_Track_8.1"],54:["page54_Track_8.2","page54_Track_8.3"],55:["page54_Track_8.3","page55_Track_8.4"],56:["page56_Track_8.5"]},
-        9: {59:["page59_Track_9.1","page59_Track_9.2"],60:["page60_Track_9.3",],61:["page61_Track_9.4"],63:["page63_Track_9.5"]},
-        10: {66:["page66_Track_10.1"],68:["page68_Track_10.2"],69:["page69_Track_10.3"]},
-        11: {72:["page72_Track_11.1"],74:["page74_Track_11.2"],75:["page75_Track_11.3"],76:["page76_Track_11.4"]},
-        12: {80:["page80_Track_12.1"],81:["page81_Track_12.2"] }
+        2:{20:["page20_Track_2.1","page20_Track_2.2","page20_Track_2.3"],21:["page21_Track_2.4","page21_Track_2.5","page21_Track_2.6"],22:["page22_Track_2.7","page22_Track_2.8"],23:["page23_Track_2.9","page23_Track_2.10","page23_Track_2.10","page23_Track_2.11"],26:["page26_Track_2.12","page26_Track_2.13"],27:["page27_Track_2.14","page27_Track_2.15","page27_Track_2.16","page27_Track_2.17","page27_Track_2.18"],28:["page28_Track_2.19"]},
+        3:{30:["page30_Track_3.1","page30_Track_3.2"],31:["page31_Track_3.3","page31_Track_3.4"],32:["page32_Track_3.5"],33:["page33_Track_3.6"],34:["page34_Track_3.7"],36:["page36_Track_3.8"],37:["page37_Track_3.9"]},
+        4:{40:["page40_Track_4.1","page40_Track_4.2"],41:["page41_Track_4.3","page41_Track_4.4"],42:["page42_Track_4.5"],43:["page43_Track_4.6","page43_Track_4.7"],45:["page45_Track_4.8"],46:["page46_Track_4.9","page46_Track_4.10","page46_Track_4.11"]},
+        5:{50:["page50_Track_5.1","page50_Track_5.2"],51:["page51_Track_5.3","page51_Track_5.4","page51_Track_5.5","page51_Track_5.6"],52:["page52_Track_5.7","page52_Track_5.8"],53:["page53_Track_5.9","page53_Track_5.10"],54:["page54_Track_5.11"],56:["page56_Track_5.12","page56_Track_5.13","page56_Track_5.14"],57:["page57_Track_5.15","page57_Track_5.16","page57_Track_5.17"]},
+        6:{60:["page60_Track_6.1","page60_Track_6.2"],61:["page61_Track_6.3","page61_Track_6.4","page61_Track_6.5"],62:["page62_Track_6.6","page62_Track_6.7","page62_Track_6.8"],63:["page63_Track_6.9"],64:["page64_Track_6.10"],66:["page66_Track_6.11","page66_Track_6.12"],67:["page67_Track_6.13","page67_Track_6.14","page67_Track_6.15"],68:["page68_Track_6.16"]},
+        7:{70:["page70_Track_7.1"],71:["page71_Track_7.2","page71_Track_7.3"],72:["page72_Track_7.4","page72_Track_7.5"],73:["page73_Track_7.6"],76:["page76_Track_7.7"],77:["page77_Track_7.8"]},
+        8:{80:["page80_Track_8.1"],81:["page81_Track_8.2","page81_Track_8.3"],82:["page82_Track_8.4","page82_Track_8.5","page82_Track_8.6"],83:["page83_Track_8.7","page83_Track_8.8"],84:["page84_Track_8.9","page84_Track_8.10"],85:["page85_Track_8.11"],86:["page86_Track_8.12"],87:["page87_Track_8.13","page87_Track_8.14","page87_Track_8.15"]},
+        9:{90:["page90_Track_9.1","page90_Track_9.2","page90_Track_9.3"],91:["page91_Track_9.4","page91_Track_9.5","page91_Track_9.6"],92:["page92_Track_9.7","page92_Track_9.8","page92_Track_9.9"],93:["page93_Track_9.10"],97:["page97_Track_9.11","page97_Track_9.12"]},
+        10:{100:["page100_Track_10.1","page100_Track_10.2"],101:["page101_Track_10.3","page101_Track_10.4","page101_Track_10.5"],102:["page102_Track_10.6","page102_Track_10.7"],103:["page103_Track_10.8","page103_Track_10.9","page103_Track_10.10"],104:["page104_Track_10.11"]},
+        11:{111:["page111_Track_11.1","page111_Track_11.2","page111_Track_11.3"],112:["page112_Track_11.4","page112_Track_11.5"],113:["page113_Track_11.6","page113_Track_11.7"],116:["page116_Track_11.8","page116_Track_11.9","page116_Track_11.10"],117:["page117_Track_11.11","page117_Track_11.12"]},
+        12:{120:["page120_Track_12.1","page120_Track_12.2"],121:["page121_Track_12.3"],122:["page122_Track_12.4","page122_Track_12.5"],123:["page123_Track_12.6","page123_Track_12.7"],124:["page124_Track_12.8"],126:["page126_Track_12.9","page126_Track_12.10"],127:["page127_Track_12.11","page127_Track_12.12","page127_Track_12.13"],128:["page128_Track_12.14"]}
     };
 
     // Define audio tracks for all units (Activity Book)
